@@ -58,9 +58,9 @@ const ArtDetails = () => {
       <section className="wrapper section-padding min-h-screen">
         <SectionTitle subtitle="Art Details" title="Details about art" />
         {art && (
-          <div className="grid grid-cols-2 gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             {/* Left part */}
-            <div className=" w-full h-[60vh] overflow-hidden">
+            <div className=" order-last md:order-first w-full h-[60vh] overflow-hidden">
               <motion.img
                 initial={{ y: "-100%" }}
                 whileInView={{ y: 0 }}

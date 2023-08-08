@@ -45,7 +45,7 @@ const Hero = () => {
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
                     transition={getTransition()}
-                    className="text-8xl uppercase font-bold"
+                    className="text-5xl uppercase font-bold"
                   >
                     {item.heading}
                   </motion.h1>
